@@ -6,6 +6,8 @@ body {
     color: #212529;
 }
 
+
+/* Navigation bar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -115,24 +117,7 @@ body {
     color: #112D4E;
 }
 
-.Open-image {
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    margin-right: 20px;
-    text-align: right;
-}
-
-.Open-image img {
-    width: 500px; 
-    height: auto;
-    border-radius: 70px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transform: translateX(30%);
-}
-
-
-
+/* Open image styles */
 .container {
     position: relative;
     width: 100%;
@@ -167,51 +152,15 @@ body {
     font-weight: bolder;
 }
 
-.text-section {
-    flex: 1;
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.text-section h1 {
-    margin: 0;
-    font-size: 36px;
-    color: #273B61;
-}
-.text-section p {
-    margin-top: 20px;
-    font-size: 18px;
-    color: #555;
-}
 
-
-
-@keyframes border-pulse {
-    0% {
-        transform: scale(1);
-        border-radius: 20px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-    50% {
-        transform: scale(1.05);
-        border-radius: 50px;
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    }
-    100% {
-        transform: scale(1);
-        border-radius: 20px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-}
-
-.new-arrivals {
+/* New drop styles */
+.new-drops {
     text-align: center;
     padding: 30px 10px;
     background-color: #DBE2EF;
 }
 
-.new-arrivals h1 {
+.new-drops h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
     color: #112D4E;
@@ -261,6 +210,9 @@ body {
     color: #112D4E;
 }
 
+
+/* Products styles */
+/* Product styles */
 .product-grid {
     display: flex;
     flex-wrap: wrap;
@@ -270,13 +222,16 @@ body {
 }
 
 .product-card {
-    background-color: #fff;
+    background-color: #FFFFFF;
     overflow: hidden;
     width: calc(25% - 20px); 
     text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50px;
+    height: 450px;
     margin-bottom: 100px; 
     margin: 0 20px 100px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .product-image {
@@ -366,6 +321,7 @@ body {
 }
 
 
+/* Footer styles */
 .footer {
     background-color: #DBE2EF;
     color: #112D4E;
