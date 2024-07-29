@@ -6,6 +6,7 @@ body {
     color: #212529;
 }
 
+/* navigation bar styles */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -13,6 +14,8 @@ body {
     background-color: #112D4E; 
     padding: 10px 20px;
     color: #DBE2Ef;
+    margin: 0;
+    padding: 0;
 }
 
 .logo-text {
@@ -112,6 +115,7 @@ body {
     color: #112D4E;
 }
 
+/* Open text styles */
 .text-section {
     flex: 1;
     padding: 40px;
@@ -131,6 +135,8 @@ body {
     font-size: 18px;
     color: #555;
 }
+
+/* Collection styles */
 .collections {
     padding: 50px 20px;
     text-align: center;
@@ -210,6 +216,8 @@ body {
     transform: translateX(30%);
 }
 
+
+/* Footer styles */
 footer {
     background-color: #1a2c46;
     color: white;
