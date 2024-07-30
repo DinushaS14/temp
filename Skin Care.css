@@ -248,19 +248,23 @@ body {
 }
 
 .product-card {
-    background-color: #fff;
+    background-color: #FFFFFF;
     overflow: hidden;
     width: calc(25% - 20px); 
     text-align: center;
-    margin-bottom: 100px; 
-    margin: 0 20px 100px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 50px;
+    height: 300px;
+    margin-bottom: 30px; 
+   
 }
 
 .product-image {
     width: 100%;
-    height: auto;
+    height: 200px;
     display: block;
+    border-radius: 10px;
 }
 
 .product-info {
@@ -281,32 +285,28 @@ body {
     margin: 10px 0;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
+    margin-bottom: 0%;
 }
 
-.product-sizes-cart {
+.product-cart {
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    margin-top: -25px;
+    justify-content: right;
 }
 
-.product-sizes {
-    flex-grow: 1;
-    text-align: center;
-    font-size: 16px;
-    color: #112D4E;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-}
+
 
 .add-to-cart-box {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 40px; 
-    height: 40px; 
+    justify-content: right;
+    width: 30px; 
+    height: 30px; 
     border-radius: 4px; 
     background-color: #fff; 
-    margin-left: 10px; 
+    margin-left: 40px; 
+    margin-top: 0%;
 }
 
 .add-to-cart {
@@ -322,6 +322,9 @@ body {
     height: 22px;
     cursor: pointer;
     color: #0f0e0e;
+    justify-content:right;
+    margin-top: 0%;
+    margin-left: 15px;
 }
 
 
@@ -344,22 +347,23 @@ body {
 }
 
 
+/* Footer styles */
 .footer {
     background-color: #DBE2EF;
     color: #112D4E;
     padding: 40px 0;
     width: 100%;
-    box-sizing: border-box; /* Ensures padding is included in the element's width */
+    box-sizing: border-box; 
 }
 
 .footer-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 0 20px; /* Padding to ensure content doesn't touch the edges */
+    padding: 0 20px; 
     width: 100%;
-    max-width: 100%; /* Ensures the container takes full width */
-    box-sizing: border-box; /* Ensures padding is included in the element's width */
+    max-width: 100%; 
+    box-sizing: border-box; 
 }
 
 .footer-section {
@@ -400,7 +404,7 @@ body {
     border-top: 1px solid #fff;
     margin-top: 20px;
     width: 100%;
-    box-sizing: border-box; /* Ensures padding is included in the element's width */
+    box-sizing: border-box; 
 }
 
 .social-icons {

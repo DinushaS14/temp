@@ -165,7 +165,7 @@ body {
     align-items: center;
     padding: 20px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
-    margin-left: 70px;
+    margin-left: 85px;
     margin-bottom: 100px;
     margin-top: -10px;
 }
@@ -219,16 +219,7 @@ body {
 }
 
 
-.image-boxes button1{
-    background-color: #112D4E;
-    color: white;
-    border: none;
-    padding: 7px 20px;
-    cursor: pointer;
-    border-radius: 30px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
+
 
 .image-boxes button{
     background-color: #112D4E;
@@ -237,17 +228,15 @@ body {
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 30px;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 5px;
 }
 
 .image-boxes button:hover {
-    background-color: rgb(108, 108, 165);
+    background-color: rgb(71, 71, 104);
 }
 
-.image-boxes button1:hover {
-    background-color: rgb(108, 108, 165);
-}
+
 
 .Heading {
     margin-top: -45px;
@@ -271,6 +260,7 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     max-width: 200px;
     text-align: center;
+    justify-content: center;
    
     transition: transform 0.3s;
 }
@@ -279,6 +269,7 @@ body {
     width: 200px;
     height: 250px;
     display: block;
+    justify-content: center;
 }
 
 .image-box h3 {
@@ -290,6 +281,7 @@ body {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius:15px ;
     color: #ffffff;
+    justify-content: center;
 
     
 }
