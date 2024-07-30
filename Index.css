@@ -1,6 +1,8 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #DBE2EF;
+    margin: 0px;
+    padding: 0px;
 }
 
 .navbar {
