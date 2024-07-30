@@ -210,7 +210,13 @@ body {
     font-size: 15px;
 }
 
-
+.product-price {
+    font-size: 18px;
+    color: #112D4E;
+    margin: 10px 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
 
 
 .image-boxes button1{
