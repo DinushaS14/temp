@@ -191,7 +191,7 @@ body {
 }
 
 .image-boxes img {
-    width: 100%;
+    width:100%;
     height: auto;
 }
 
@@ -254,15 +254,15 @@ body {
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 200px;
+    max-width: 300px;
     text-align: center;
    
     transition: transform 0.3s;
 }
 
 .image-box img {
-    width: 200px;
-    height: 250px;
+    width: 250px;
+    height: 300px;
     display: block;
 }
 
@@ -301,7 +301,21 @@ body {
 .image-box h3 :hover {
     transform: scale(1.05);
 }
+.btn {
+    display: inline-block;
+    margin: 15px 0;
+    padding: 10px 20px;
+    background-color: #DBE2EF;
+    color: #090909;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+    font-weight: 700;
+}
 
+.btn:hover {
+    background-color: #607d8b;
+}
 
 
 
