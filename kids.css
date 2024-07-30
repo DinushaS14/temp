@@ -5,7 +5,7 @@ body {
     background-color: #DBE2EF;
     color: #212529;
 }
-
+/*Navigation Bar*/
 .navbar {
     display: flex;
     justify-content: space-between;
