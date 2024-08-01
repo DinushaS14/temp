@@ -270,19 +270,23 @@ body {
 }
 
 .product-card {
-    background-color: #fff;
+    background-color: #FFFFFF;
     overflow: hidden;
     width: calc(25% - 20px); 
     text-align: center;
-    margin-bottom: 100px; 
-    margin: 0 20px 100px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 50px;
+    height: 450px;
+    margin-bottom: 30px; 
+   
 }
 
 .product-image {
     width: 100%;
     height: auto;
     display: block;
+    border-radius: 10px;
 }
 
 .product-info {
@@ -366,38 +370,36 @@ body {
 }
 
 
+/* Footer styles */
 .footer {
-    background-color: #DBE2EF;
-    color: #112D4E;
-    padding: 40px 0;
+    background-color: #112d4e;
+    color: #dbe2ef;
+    padding: 30px 0;
     width: 100%;
-    box-sizing: border-box; /* Ensures padding is included in the element's width */
+    box-sizing: border-box; 
+    text-align: center;
 }
 
 .footer-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 0 20px; /* Padding to ensure content doesn't touch the edges */
+    padding: 0 20px; 
     width: 100%;
-    max-width: 100%; /* Ensures the container takes full width */
-    box-sizing: border-box; /* Ensures padding is included in the element's width */
+    max-width: 100%; 
+    box-sizing: border-box; 
 }
 
 .footer-section {
     max-width: 300px;
     margin-bottom: 20px;
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
-.footer-section h2,
-.footer-section h3 {
+.footer-section h2 {
     margin-bottom: 10px;
-}
-
-.footer-section p,
-.footer-section ul {
-    margin: 0;
+    color: #dbe2ef;
+    font-family:'Krona One', sans-serif;
 }
 
 .footer-section ul {
@@ -410,7 +412,7 @@ body {
 }
 
 .footer-section ul li a {
-    color: #fff;
+    color: #dbe2ef;
     text-decoration: none;
 }
 
@@ -419,10 +421,10 @@ body {
     flex-direction: column;
     align-items: center;
     padding-top: 20px;
-    border-top: 1px solid #fff;
-    margin-top: 20px;
+    border-top: 1px solid #dbe2ef;
+    margin-top: 5px;
     width: 100%;
-    box-sizing: border-box; /* Ensures padding is included in the element's width */
+    box-sizing: border-box; 
 }
 
 .social-icons {
