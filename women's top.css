@@ -6,6 +6,8 @@ body {
     color: #212529;
 }
 
+/* Navigation bar styles */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -115,23 +117,7 @@ body {
     color: #112D4E;
 }
 
-.Open-image {
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    margin-right: 20px;
-    text-align: right;
-}
-
-.Open-image img {
-    width: 500px; 
-    height: auto;
-    border-radius: 70px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transform: translateX(30%);
-}
-
-
+/* Open image styles */
 
 .container {
     position: relative;
@@ -160,58 +146,17 @@ body {
     align-items: center; 
     text-align: center;
 }
-.text {
-    font-size: 8em;
-    padding: 20px;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: bolder;
-}
-
-.text-section {
-    flex: 1;
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.text-section h1 {
-    margin: 0;
-    font-size: 36px;
-    color: #273B61;
-}
-.text-section p {
-    margin-top: 20px;
-    font-size: 18px;
-    color: #555;
-}
 
 
+/* New drop styles */
 
-@keyframes border-pulse {
-    0% {
-        transform: scale(1);
-        border-radius: 20px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-    50% {
-        transform: scale(1.05);
-        border-radius: 50px;
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    }
-    100% {
-        transform: scale(1);
-        border-radius: 20px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-}
-
-.new-arrivals {
+.new-drops {
     text-align: center;
     padding: 30px 10px;
     background-color: #DBE2EF;
 }
 
-.new-arrivals h1 {
+.new-drops h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
     color: #112D4E;
@@ -245,22 +190,8 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-.product-item button {
-    background-color: #112D4E;
-    color: #FFFFFF;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1em;
-    font-family: 'Inter', sans-serif;
-}
 
-.product-item button:hover {
-    background-color: #DBE2EF;
-    color: #112D4E;
-}
-
+/* Products styles */
 .product-grid {
     display: flex;
     flex-wrap: wrap;
@@ -445,3 +376,6 @@ body {
 .footer-bottom p {
     margin: 0;
 }
+
+
+
